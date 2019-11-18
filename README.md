@@ -7,7 +7,8 @@ Sukapura Mobile App
 Download Now!!
 Karna,
 Ti Tasik,Ku Tasik,Keur Tasik #Tikukur
------------------------------------‐-
+
+
 Bismillah,
 Assalamuaikum.
 Sampurasun.
