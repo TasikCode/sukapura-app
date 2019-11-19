@@ -9,7 +9,6 @@ import MainSection from '../../organism/MainSection';
 import ScrollableProducts from '../../../containers/organism/ScrollableProducts';
 import NavIcons from '../../../containers/organism/NavIcons';
 import Kecamatan from '../../organism/Kecamatan';
-import IyuwePayFeature from '../../organism/IyuwePayFeature';
 
 class Home extends Component {
   render() {
@@ -30,8 +29,7 @@ class Home extends Component {
         <ScrollView style={{flex: 1, backgroundColor: 'white', paddingTop: 8}}>
           {/* Search Bar*/}
           {/*iyuwe pay*/}
-          <IyuwePayFeature />
-          {/* <View style={{marginHorizontal: 17, marginTop: 8}}>
+          <View style={{marginHorizontal: 17, marginTop: 8}}>
             <View
               style={{
                 flexDirection: 'row',
@@ -74,7 +72,7 @@ class Home extends Component {
                 img={require('../../../../src/assets/icon/more1.png')}
               />
             </View>
-          </View> */}
+          </View>
           {/*Main Feature*/}
           <MainSection />
           <View
