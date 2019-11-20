@@ -12,22 +12,22 @@ const screenWidth = Dimensions.get('window').width;
 const data = [
   {
     name: 'Kurang Mampu',
-    population: 215000,
-    color: 'rgba(245, 222, 179)',
+    population: 10021,
+    color: 'rgba(34, 139, 35)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
   {
     name: 'Menengah',
-    population: 280000,
+    population: 12342,
     color: 'rgba(62, 250, 153)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
   {
     name: 'Mampu',
-    population: 52761,
-    color: 'rgba(175, 238, 239)',
+    population: 11234,
+    color: 'rgba(124, 252, 2)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
@@ -60,7 +60,7 @@ const ChartPieTamansari = () => {
           fontSize: 15,
           fontWeight: 'bold',
           paddingLeft: 25,
-          color: '#A0522D',
+          color: '#228B22',
         }}>
         #TINGKAT KESEJAHTERAAN MASYARAKAT
       </Text>

@@ -52,7 +52,7 @@ class BungursariChartSection extends Component {
           <Text style={{fontSize: 14, fontWeight: 'bold', color: '#1c1c1c'}}>
             KECAMATAN BUNGURSARI
           </Text>
-          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#61A756'}}>
+          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#FF1493'}}>
             46151
           </Text>
         </View>

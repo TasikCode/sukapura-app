@@ -1,5 +1,5 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, Text} from 'react-native';
 import {
   LineChart,
   BarChart,
@@ -14,14 +14,7 @@ const ChartTawang = () => {
     <View style={{}}>
       <LineChart
         data={{
-          labels: [
-            'Juli',
-            'Agustus',
-            'September',
-            'Oktober',
-            'November',
-            'Desember',
-          ],
+          labels: ['Juli', 'Agust', 'Sept', 'Okto', 'Novem', 'Desem'],
           datasets: [
             {
               data: [
@@ -40,28 +33,38 @@ const ChartTawang = () => {
         yAxisLabel={'$'}
         yAxisSuffix={'k'}
         chartConfig={{
-          backgroundColor: '#F5FFFA',
-          backgroundGradientFrom: '#F5FFFA',
-          backgroundGradientTo: '#F5FFFA',
+          backgroundColor: '#FFFAFA',
+          backgroundGradientFrom: '#FFFAFA',
+          backgroundGradientTo: '#FFFAFA',
           decimalPlaces: 2, // optional, defaults to 2dp
-          color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
-          labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
+          color: (opacity = 1) => `rgba(205, 92, 92, ${opacity})`,
+          labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
           style: {
             borderRadius: 16,
           },
           propsForDots: {
             r: '6',
             strokeWidth: '2',
-            stroke: '#ffa726',
+            stroke: '#FFA07A',
           },
         }}
         bezier
         style={{
           marginVertical: 8,
           borderRadius: 16,
-          paddingLeft: 9,
+          paddingLeft: 1,
         }}
       />
+      <Text
+        style={{
+          textAlign: 'center',
+          fontSize: 15,
+          fontWeight: 'bold',
+          color: '#FFA07A',
+          marginTop: 7,
+        }}>
+        #ESTIMASI KAS KECAMATAN
+      </Text>
     </View>
   );
 };

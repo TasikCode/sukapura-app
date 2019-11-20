@@ -11,14 +11,14 @@ import {
 const screenWidth = Dimensions.get('window').width;
 const data = {
   labels: ['Bekerja', 'Merantau', 'Nyari Kerja', 'Pelajar'], // optional
-  data: [0.4, 0.6, 0.3, 0.5],
+  data: [0.6, 0.3, 0.2, 0.2],
 };
 const chartConfig = {
   backgroundGradientFrom: '#FFFAFA',
   backgroundGradientFromOpacity: 0.5,
   backgroundGradientTo: '#FFFAFA',
   backgroundGradientToOpacity: 0.5,
-  color: (opacity = 1) => `rgba(218, 112, 214, ${opacity})`,
+  color: (opacity = 1) => `rgba(255, 0, 0, ${opacity})`,
   labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
   strokeWidth: 2, // optional, default 3
   barPercentage: 0.5,
@@ -45,7 +45,7 @@ const ChartPMangkubumi = () => {
           paddingLeft: 60,
           color: '#FA8072',
         }}>
-        #STATISTIK SDM BUNGURSARI
+        #STATISTIK SDM MANGKUBUMI
       </Text>
     </View>
   );

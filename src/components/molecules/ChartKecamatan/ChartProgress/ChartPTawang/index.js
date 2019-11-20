@@ -18,7 +18,7 @@ const chartConfig = {
   backgroundGradientFromOpacity: 0.5,
   backgroundGradientTo: '#FFFAFA',
   backgroundGradientToOpacity: 0.5,
-  color: (opacity = 1) => `rgba(218, 112, 214, ${opacity})`,
+  color: (opacity = 1) => `rgba(205, 92, 92, ${opacity})`,
   labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
   strokeWidth: 2, // optional, default 3
   barPercentage: 0.5,
@@ -43,7 +43,7 @@ const ChartPTawang = () => {
           fontWeight: 'bold',
           marginTop: 20,
           paddingLeft: 60,
-          color: '#FA8072',
+          color: '#FFA07A',
         }}>
         #STATISTIK SDM BUNGURSARI
       </Text>
