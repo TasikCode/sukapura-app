@@ -13,21 +13,21 @@ const data = [
   {
     name: 'Kurang Mampu',
     population: 215000,
-    color: 'rgba(245, 222, 179)',
+    color: 'rgba(30, 144, 255)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
   {
     name: 'Menengah',
     population: 280000,
-    color: 'rgba(62, 250, 153)',
+    color: 'rgba(0, 0, 255)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
   {
     name: 'Mampu',
     population: 52761,
-    color: 'rgba(175, 238, 239)',
+    color: 'rgba(0, 0, 139)',
     legendFontColor: '#7F7F7F',
     legendFontSize: 13,
   },
@@ -60,7 +60,7 @@ const ChartPiePurbaratu = () => {
           fontSize: 15,
           fontWeight: 'bold',
           paddingLeft: 25,
-          color: '#A0522D',
+          color: '#87CEFA',
         }}>
         #TINGKAT KESEJAHTERAAN MASYARAKAT
       </Text>

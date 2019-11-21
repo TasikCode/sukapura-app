@@ -52,7 +52,7 @@ class CibeureumChartSection extends Component {
           <Text style={{fontSize: 14, fontWeight: 'bold', color: '#1c1c1c'}}>
             KECAMATAN CIBEUREUM
           </Text>
-          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#61A756'}}>
+          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#FFA500'}}>
             46133
           </Text>
         </View>

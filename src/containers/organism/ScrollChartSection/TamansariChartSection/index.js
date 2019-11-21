@@ -12,7 +12,17 @@ class TamansariChartSection extends Component {
           padding: 16,
           backgroundColor: '#FFFAFA',
           paddingBottom: 2,
-          borderRadius: 16,
+          borderTopLeftRadius: 0,
+          borderTopRightRadius: 0,
+          elevation: 4,
+          shadowColor: '#000',
+          shadowOpacity: 0.1,
+          shadowOffset: {x: 0, y: 0},
+          shadowRadius: 15,
+          // borderWidth: 1,
+          borderColor: '#DDD',
+          borderBottomLeftRadius: 20,
+          borderBottomRightRadius: 20,
         }}>
         <View
           style={{
@@ -42,7 +52,7 @@ class TamansariChartSection extends Component {
           <Text style={{fontSize: 14, fontWeight: 'bold', color: '#1c1c1c'}}>
             KECAMATAN TAMANSARI
           </Text>
-          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#61A756'}}>
+          <Text style={{fontSize: 14, fontWeight: 'bold', color: '#006400'}}>
             46191
           </Text>
         </View>

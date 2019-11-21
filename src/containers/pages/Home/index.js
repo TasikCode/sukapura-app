@@ -4,11 +4,11 @@ import NewsSection from '../../../components/molecules/NewsSection';
 import SearchFeature from '../../../components/molecules/SearchFeature';
 import VoucherInfo from '../../../components/molecules/VoucherInfo';
 import WartaNews from '../../../components/molecules/WartaNews';
-import IyuwePayFeature from '../../../containers/organism/IyuwePayFeature';
 import MainSection from '../../organism/MainSection';
 import ScrollableProducts from '../../../containers/organism/ScrollableProducts';
 import NavIcons from '../../../containers/organism/NavIcons';
 import Kecamatan from '../../organism/Kecamatan';
+import IyuweFeature from '../../organism/IyuweFeature';
 
 class Home extends Component {
   render() {
@@ -24,55 +24,12 @@ class Home extends Component {
             marginBottom: 3,
             marginTop: 6,
           }}>
+          {/* Search Bar*/}
           <SearchFeature />
         </View>
         <ScrollView style={{flex: 1, backgroundColor: 'white', paddingTop: 8}}>
-          {/* Search Bar*/}
           {/*iyuwe pay*/}
-          <View style={{marginHorizontal: 17, marginTop: 8}}>
-            <View
-              style={{
-                flexDirection: 'row',
-                justifyContent: 'space-between',
-                backgroundColor: '#05DDC1',
-                borderTopLeftRadius: 4,
-                borderTopRightRadius: 4,
-                padding: 10,
-              }}>
-              <Image
-                source={require('../../../../src/assets/icon/iyuwe4.png')}
-              />
-              <Text style={{fontSize: 17, fontWeight: 'bold'}}>
-                Rp.-777.000
-              </Text>
-            </View>
-            <View
-              style={{
-                flexDirection: 'row',
-                paddingTop: 15,
-                paddingBottom: 10,
-                backgroundColor: '#14F0D3',
-                borderBottomLeftRadius: 4,
-                borderBottomRightRadius: 4,
-              }}>
-              <IyuwePayFeature
-                title="Bayar"
-                img={require('../../../../src/assets/icon/bayar2.png')}
-              />
-              <IyuwePayFeature
-                title="Pelajar"
-                img={require('../../../../src/assets/icon/memeber-1.png')}
-              />
-              <IyuwePayFeature
-                title="Isi Saldo"
-                img={require('../../../../src/assets/icon/top-up.png')}
-              />
-              <IyuwePayFeature
-                title="Nusanesna"
-                img={require('../../../../src/assets/icon/more1.png')}
-              />
-            </View>
-          </View>
+          <IyuweFeature />
           {/*Main Feature*/}
           <MainSection />
           <View

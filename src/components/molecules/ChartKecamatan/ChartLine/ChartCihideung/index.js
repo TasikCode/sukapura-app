@@ -14,14 +14,7 @@ const ChartCihideung = () => {
     <View style={{}}>
       <LineChart
         data={{
-          labels: [
-            'Juli',
-            'Agustus',
-            'September',
-            'Oktober',
-            'November',
-            'Desember',
-          ],
+          labels: ['Juli', 'Agust', 'Sept', 'Okto', 'Novem', 'Desem'],
           datasets: [
             {
               data: [
@@ -44,7 +37,7 @@ const ChartCihideung = () => {
           backgroundGradientFrom: '#FFFAFA',
           backgroundGradientTo: '#FFFAFA',
           decimalPlaces: 2, // optional, defaults to 2dp
-          color: (opacity = 1) => `rgba(221, 160, 221, ${opacity})`,
+          color: (opacity = 1) => `rgba(252, 192, 203, ${opacity})`,
           labelColor: (opacity = 1) => `rgba(0, 0, 0, ${opacity})`,
           style: {
             borderRadius: 16,
@@ -52,7 +45,7 @@ const ChartCihideung = () => {
           propsForDots: {
             r: '6',
             strokeWidth: '2',
-            stroke: '#EE82EE',
+            stroke: '#FFB6C1',
           },
         }}
         bezier
@@ -67,7 +60,7 @@ const ChartCihideung = () => {
           textAlign: 'center',
           fontSize: 15,
           fontWeight: 'bold',
-          color: '#F4A460',
+          color: '#FFB6C1',
           marginTop: 7,
         }}>
         #ESTIMASI KAS KECAMATAN
