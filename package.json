@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "deploy-to-now": "now -e APP_ID=905232 -e APP_KEY=463599a0a671776253b8 -e APP_SECRET=63ed41147b4d7531837b"
+    "deploy-to-now": "now -e APP_ID=@pusher_app_id -e APP_KEY=@pusher_app_key -e APP_SECRET=@pusher_app_secret APP_CLUSTER=@pusher_app_cluster"
   },
   "dependencies": {
     "@react-native-community/geolocation": "^2.0.2",
