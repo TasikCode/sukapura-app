@@ -3,13 +3,11 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "build": "[react-navite] build --output public",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "deploy-to-now": "now -e APP_ID=@pusher_app_id -e APP_KEY=@pusher_app_key -e APP_SECRET=@pusher_app_secret APP_CLUSTER=@pusher_app_cluster"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@react-native-community/geolocation": "^2.0.2",
