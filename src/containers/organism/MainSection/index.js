@@ -4,19 +4,6 @@ import MainFeature from '../../../components/molecules/MainFeature';
 import NusaenaSection from '../../organism/NusaenaSection';
 import {withNavigation} from 'react-navigation';
 import RBSheet from 'react-native-raw-bottom-sheet';
-import {
-  Container,
-  Header,
-  Content,
-  Button,
-  ListItem,
-  Text,
-  Icon,
-  Left,
-  Body,
-  Right,
-  Switch,
-} from 'native-base';
 
 class MainSection extends Component {
   render() {

@@ -12,7 +12,7 @@ import {
 import {StatusBar, View, Text, Image} from 'react-native';
 import NavIcons from '../../../containers/organism/NavIcons';
 
-export default class Orders extends Component {
+export default class Inbox extends Component {
   render() {
     return (
       <Container>
@@ -32,10 +32,10 @@ export default class Orders extends Component {
         <Right></Right>
         <View style={{flex: 1}}>
           <Text style={{fontSize: 24, fontWeight: 'bold', textAlign: 'center'}}>
-            Suka Lapar, Nya ??
+            Suka Lapar, Euy ??
           </Text>
           <Text style={{fontSize: 12, fontWeight: 'bold', textAlign: 'center'}}>
-            Kuuy Aah...Pesenkeun Katuangana!!
+            Kuuy Aah...Pesenkeun Katuangan
           </Text>
         </View>
         <NavIcons />
