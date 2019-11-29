@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Image, ScrollView, Text, View, StatusBar} from 'react-native';
+import {ScrollView, Text, View, StatusBar} from 'react-native';
 import NewsSection from '../../../components/molecules/NewsSection';
 import SearchFeature from '../../../components/molecules/SearchFeature';
 import VoucherInfo from '../../../components/molecules/VoucherInfo';
@@ -13,7 +13,7 @@ import IyuweFeature from '../../organism/IyuweFeature';
 class Home extends Component {
   render() {
     return (
-      <View style={{flex: 1, elevation: 5}}>
+      <View style={{flex: 1}}>
         <StatusBar
           barStyle="dark-content"
           hidden={false}
@@ -27,7 +27,7 @@ class Home extends Component {
           {/* Search Bar*/}
           <SearchFeature />
         </View>
-        <ScrollView style={{flex: 1, backgroundColor: 'white', paddingTop: 8}}>
+        <ScrollView style={{flex: 1, backgroundColor: 'white', paddingTop: 1}}>
           {/*iyuwe pay*/}
           <IyuweFeature />
           {/*Main Feature*/}
@@ -40,15 +40,6 @@ class Home extends Component {
             }}></View>
           {/*Kecamatan image*/}
           <Kecamatan />
-          {/* Line Border */}
-          <View
-            style={{
-              borderBottomColor: '#e8e9ed',
-              borderBottomWidth: 1,
-              marginTop: 5,
-              marginHorizontal: 16,
-              marginBottom: 20,
-            }}></View>
           {/* WartaNews */}
           <WartaNews
             onPress={() => this.props.navigation.navigate('WartaTasikDetail')}

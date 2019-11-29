@@ -11,7 +11,7 @@ class Kecamatan extends Component {
           flexDirection: 'row',
           flexWrap: 'wrap',
           marginHorizontal: 12,
-          marginTop: 12,
+          marginTop: 2,
         }}>
         <View
           style={{

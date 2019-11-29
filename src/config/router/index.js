@@ -4,7 +4,9 @@ import {
   Home,
   WartaTasikDetail,
   Orders,
-  OrdersDetail,
+  Ngobrol,
+  Inbox,
+  Akun,
   KecamatanBungursari,
   KecamatanCibeureum,
   KecamatanCihideung,
@@ -58,11 +60,40 @@ const HomeStack = createStackNavigator(
 const OrdersStack = createStackNavigator(
   {
     Orders,
-    OrdersDetail,
   },
   {
     headerMode: 'none',
     initialRouteName: 'Orders',
+  },
+);
+
+const NgobrolStack = createStackNavigator(
+  {
+    Ngobrol,
+  },
+  {
+    headerMode: 'none',
+    initialRouteName: 'Ngobrol',
+  },
+);
+
+const InboxStack = createStackNavigator(
+  {
+    Inbox,
+  },
+  {
+    headerMode: 'none',
+    initialRouteName: 'Inbox',
+  },
+);
+
+const AkunsStack = createStackNavigator(
+  {
+    Akun,
+  },
+  {
+    headerMode: 'none',
+    initialRouteName: 'Akun',
   },
 );
 
@@ -71,6 +102,9 @@ const Router = createSwitchNavigator(
     HomeStack,
     OrdersStack,
     SplashStack,
+    NgobrolStack,
+    InboxStack,
+    AkunsStack,
   },
   {
     headerMode: 'none',

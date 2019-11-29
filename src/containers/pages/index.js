@@ -1,7 +1,6 @@
 import Home from './Home';
 import WartaTasikDetail from './WartaTasikDetail';
 import Orders from './Orders';
-import OrdersDetail from './OrdersDetail';
 import KecamatanBungursari from './KecamatanBungursari';
 import BungursariDetail from './BungursariDetail';
 import KecamatanCibeureum from './KecamatanCibeureum';
@@ -17,12 +16,17 @@ import KecamatanTamansari from './KecamatanTamansari';
 import KecamatanTawang from './KecamatanTawang';
 import SukaOjeg from './SukaOjeg';
 import SukaMobil from './SukaMobil';
+import Ngobrol from './Ngobrol';
+import Inbox from './Inbox';
+import Akun from './Akun';
 
 export {
   Home,
   WartaTasikDetail,
   Orders,
-  OrdersDetail,
+  Ngobrol,
+  Inbox,
+  Akun,
   KecamatanBungursari,
   BungursariDetail,
   KecamatanCibeureum,

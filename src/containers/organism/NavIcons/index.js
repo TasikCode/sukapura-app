@@ -26,17 +26,17 @@ class NavIcons extends Component {
           img={require('../../../assets/icon/order.png')}
         />
         <NavBaricon
-          onPress={() => this.props.navigation.navigate()}
+          onPress={() => this.props.navigation.navigate('Ngobrol')}
           title="Ngobrol"
           img={require('../../../assets/icon/help.png')}
         />
         <NavBaricon
-          onPress={() => this.props.navigation.navigate()}
+          onPress={() => this.props.navigation.navigate('Inbox')}
           title="Inbox"
           img={require('../../../assets/icon/inbox.png')}
         />
         <NavBaricon
-          onPress={() => this.props.navigation.navigate()}
+          onPress={() => this.props.navigation.navigate('Akun')}
           title="Akun"
           img={require('../../../assets/icon/account.png')}
         />
