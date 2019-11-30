@@ -19,9 +19,11 @@ import SukaMobil from './SukaMobil';
 import Ngobrol from './Ngobrol';
 import Inbox from './Inbox';
 import Akun from './Akun';
+import ScreenSukapura from './SreenSukapura';
 
 export {
   Home,
+  ScreenSukapura,
   WartaTasikDetail,
   Orders,
   Ngobrol,

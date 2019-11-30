@@ -21,6 +21,7 @@ import {
   Login,
   SukaOjeg,
   SukaMobil,
+  ScreenSukapura,
 } from '../../containers/pages';
 
 const SplashStack = createStackNavigator(
@@ -54,6 +55,16 @@ const HomeStack = createStackNavigator(
   {
     headerMode: 'none',
     initialRouteName: 'Home',
+  },
+);
+
+const SreenSukapuraStack = createStackNavigator(
+  {
+    ScreenSukapura,
+  },
+  {
+    headerMode: 'none',
+    initialRouteName: 'ScreenSukapura',
   },
 );
 
@@ -105,6 +116,7 @@ const Router = createSwitchNavigator(
     NgobrolStack,
     InboxStack,
     AkunsStack,
+    SreenSukapuraStack,
   },
   {
     headerMode: 'none',

@@ -3,7 +3,7 @@ import {View, Image, Text, TouchableOpacity} from 'react-native';
 
 const IyuwePayFeature = props => {
   return (
-    <View style={{flex: 1, alignItems: 'center', alignItems: 'center'}}>
+    <View style={{flex: 1, alignItems: 'center'}}>
       <TouchableOpacity>
         <Image source={props.img} />
         <Text
