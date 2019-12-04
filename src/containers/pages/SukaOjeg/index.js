@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {ActivityIndicator, View} from 'react-native';
 import MapView, {PROVIDER_GOOGLE, Marker} from 'react-native-maps';
 import geolocation from '@react-native-community/geolocation';
-import SearchPlaces from '../../../components/molecules/SearchPlaces';
+// import SearchPlaces from '../../../components/molecules/SearchPlaces';
 // Component
 const initialState = {
   latitude: null,
@@ -37,7 +37,7 @@ const SukaOjeg = () => {
         region={curentPisition}
         showsUserLocation={true}
         loadingEnabled={true}></MapView>
-      <SearchPlaces />
+      {/* <SearchPlaces /> */}
     </View>
   ) : (
     <ActivityIndicator style={{flex: 1}} animating size="large" />

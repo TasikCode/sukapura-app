@@ -15,7 +15,7 @@ import {
   Title,
 } from 'native-base';
 import {View, StatusBar} from 'react-native';
-import NavIcons from '../../../containers/organism/NavIcons';
+import {CardEcomOne, CardEcomThree} from 'react-native-card-ui';
 
 export default class ScreenSukapura extends Component {
   render() {
@@ -35,65 +35,16 @@ export default class ScreenSukapura extends Component {
           </Left>
         </Header>
         <Content>
-          <View
-            style={{
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              backgroundColor: '#F0FFFF',
-              padding: 12,
-            }}>
-            <Thumbnail source={require('../../../assets/dummy/ade.jpg')} />
-            <Text style={{fontSize: 11, fontWeight: 'bold'}}>
-              Ade Nurrahman
-            </Text>
-            <Text style={{fontSize: 10, fontWeight: 'bold'}}>
-              admin@sukapura.app
-            </Text>
-            <Button style={{backgroundColor: '#F0FFFF'}}>
-              <Icon active name="close" />
-            </Button>
-          </View>
-          <ListItem icon>
-            <Left>
-              <Button style={{backgroundColor: '#AFEEEE'}}>
-                <Icon active name="rocket" />
-              </Button>
-            </Left>
-            <Body>
-              <Text>Airplane Mode</Text>
-            </Body>
-            <Right>
-              <Switch value={true} />
-            </Right>
-          </ListItem>
-          <ListItem icon>
-            <Left>
-              <Button style={{backgroundColor: '#FFB6C1'}}>
-                <Icon active name="wifi" />
-              </Button>
-            </Left>
-            <Body>
-              <Text>Wi-Fi</Text>
-            </Body>
-            <Right>
-              <Icon active name="arrow-forward" />
-            </Right>
-          </ListItem>
-          <ListItem icon>
-            <Left>
-              <Button style={{backgroundColor: '#FFE4B5'}}>
-                <Icon active name="bluetooth" />
-              </Button>
-            </Left>
-            <Body>
-              <Text>Bluetooth</Text>
-            </Body>
-            <Right>
-              <Icon active name="arrow-forward" />
-            </Right>
-          </ListItem>
+          <CardEcomThree
+            title={'Mie Ajam Nzo 777'}
+            subTitle={'Mie Na Meuli,Hayamna Newak Sorangan'}
+            price={'$200'}
+            image={require('../../../assets/dummy/go-food-gm.jpg')} // OR {{uri:"http://......"}}
+            buttonText={'Login'}
+            buttonColor={'#ff2788'}
+            onClickButton={() => alert('Maaf ,lembali lagi nanti')}
+          />
         </Content>
-        <NavIcons />
       </Container>
     );
   }

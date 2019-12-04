@@ -45,7 +45,7 @@ const ChartPIndihiang = () => {
           paddingLeft: 60,
           color: '#FFD700',
         }}>
-        #STATISTIK SDM BUNGURSARI
+        #STATISTIK SDM INDIHIANG
       </Text>
     </View>
   );
