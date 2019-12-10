@@ -3,26 +3,25 @@ import {View, Text, Image, TouchableOpacity} from 'react-native';
 
 const MainFeature = props => {
   return (
-    <View style={{width: '25.5%', alignItems: 'center'}}>
+    <View style={{width: '25%', alignItems: 'center'}}>
+      <View
+        style={{
+          width: 41,
+          height: 41,
+          borderWidth: 1,
+          borderColor: 'white',
+          borderRadius: 18,
+          justifyContent: 'center',
+          alignItems: 'center',
+          backgroundColor: props.backgroundColor,
+        }}></View>
       <TouchableOpacity onPress={props.onPress}>
-        <View
-          style={{
-            width: 45,
-            height: 45,
-            borderWidth: 1,
-            borderColor: 'white',
-            borderRadius: 18,
-            justifyContent: 'center',
-            alignItems: 'center',
-            backgroundColor: props.backgroundColor,
-          }}>
-          <Image source={props.img} />
-        </View>
+        <Image source={props.img} />
         <Text
           style={{
             fontSize: 10,
             textAlign: 'center',
-            marginTop: 6,
+            marginTop: 7,
             fontWeight: 'bold',
           }}>
           {props.title}

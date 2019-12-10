@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native-community/geolocation": "^2.0.2",
     "@types/react-native-snap-carousel": "^3.7.4",
+    "google-maps": "^3.3.0",
     "native-base": "^2.13.8",
     "react": "16.9.0",
     "react-addons-shallow-compare": "^15.6.2",
@@ -19,6 +20,7 @@
     "react-native": "0.61.2",
     "react-native-card-ui": "^1.1.1",
     "react-native-chart-kit": "^3.11.0",
+    "react-native-component": "^0.1.9",
     "react-native-geocoding": "^0.4.0",
     "react-native-geolocation": "^1.0.0",
     "react-native-gesture-handler": "^1.4.1",

@@ -7,8 +7,8 @@ import geolocation from '@react-native-community/geolocation';
 const initialState = {
   latitude: null,
   longitude: null,
-  latitudeDelta: 0.002,
-  longitudeDelta: 0.002,
+  latitudeDelta: 0.007,
+  longitudeDelta: 0.007,
 };
 
 const SukaOjeg = () => {

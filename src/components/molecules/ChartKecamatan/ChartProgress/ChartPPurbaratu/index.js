@@ -11,7 +11,7 @@ import {
 const screenWidth = Dimensions.get('window').width;
 const data = {
   labels: ['Bekerja', 'Merantau', 'Nyari Kerja', 'Pelajar'], // optional
-  data: [0.3, 0.1, 0.2, 0.4],
+  data: [0.4, 0.3, 0.1, 0.2],
 };
 const chartConfig = {
   backgroundGradientFrom: '#FFFAFA',
@@ -45,7 +45,7 @@ const ChartPPurbaratu = () => {
           paddingLeft: 60,
           color: '#87CEFA',
         }}>
-        #STATISTIK SDM BUNGURSARI
+        #STATISTIK SDM PURBARATU
       </Text>
     </View>
   );

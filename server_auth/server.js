@@ -6,16 +6,6 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
-var users = ['luz', 'vi', 'minda'];
-var username = req.body.username;
-
-if (users.indexOf(username) !== -1) {
-  var socketId = req.body.socket_id;
-  var channel = req.body.channel_name;
-  var auth = pusher.authenticate(socketId, channel);
-  res.send(auth);
-}
-
 var pusher = new Pusher({
   appId: process.env.APP_ID,
   key: process.env.APP_KEY,

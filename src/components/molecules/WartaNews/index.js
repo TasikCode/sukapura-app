@@ -30,6 +30,7 @@ const WartaNews = ({onPress}) => {
           }}>
           <Image
             source={require('../../../assets/logo/Neuda-logo.png')}
+            onPress={() => this.props.navigation.navigate('WartaTasikDetail')}
             style={{
               width: undefined,
               height: undefined,
