@@ -41,9 +41,7 @@ class Home extends Component {
           {/*Kecamatan image*/}
           <Kecamatan />
           {/* WartaNews */}
-          <WartaNews
-            onPress={() => this.props.navigation.navigate('WartaTasikDetail')}
-          />
+          <WartaNews />
           {/*NEWS Section 2*/}
           <NewsSection />
           {/*voucher banner*/}

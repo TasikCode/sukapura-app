@@ -21,6 +21,8 @@ import {
   Login,
   SukaOjeg,
   SukaMobil,
+  ScreenSukapura,
+  ScanQode,
 } from '../../containers/pages';
 
 const SplashStack = createStackNavigator(
@@ -50,10 +52,21 @@ const HomeStack = createStackNavigator(
     KecamatanTawang,
     SukaOjeg,
     SukaMobil,
+    ScanQode,
   },
   {
     headerMode: 'none',
     initialRouteName: 'Home',
+  },
+);
+
+const SreenSukapuraStack = createStackNavigator(
+  {
+    ScreenSukapura,
+  },
+  {
+    headerMode: 'none',
+    initialRouteName: 'ScreenSukapura',
   },
 );
 
@@ -87,7 +100,7 @@ const InboxStack = createStackNavigator(
   },
 );
 
-const AkunsStack = createStackNavigator(
+const AkunStack = createStackNavigator(
   {
     Akun,
   },
@@ -104,7 +117,8 @@ const Router = createSwitchNavigator(
     SplashStack,
     NgobrolStack,
     InboxStack,
-    AkunsStack,
+    AkunStack,
+    SreenSukapuraStack,
   },
   {
     headerMode: 'none',

@@ -20,7 +20,7 @@ export default class Ngobrol extends Component {
           <StatusBar barStyle="dark-content" backgroundColor="#fff" />
           <Body>
             <Title style={{color: '#000', paddingLeft: 12, fontWeight: 'bold'}}>
-              Nuju di siapkeun
+              Ngobrol
             </Title>
           </Body>
           <Left>
@@ -29,8 +29,7 @@ export default class Ngobrol extends Component {
             </Button>
           </Left>
         </Header>
-        <Right></Right>
-        <View style={{flex: 1}}>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
           <Text style={{fontSize: 24, fontWeight: 'bold', textAlign: 'center'}}>
             Suka Lapar, Nya ??
           </Text>

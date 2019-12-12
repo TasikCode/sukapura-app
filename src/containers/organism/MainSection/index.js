@@ -8,7 +8,42 @@ import RBSheet from 'react-native-raw-bottom-sheet';
 class MainSection extends Component {
   render() {
     return (
-      <View style={{flexDirection: 'row', flexWrap: 'wrap', marginTop: 14}}>
+      <View style={{flexDirection: 'row', flexWrap: 'wrap', marginTop: 25}}>
+        <View
+          style={{
+            justifyContent: 'space-between',
+            flexDirection: 'row',
+            width: '100%',
+            marginBottom: 35,
+          }}>
+          {/* Main 1 */}
+          <MainFeature
+            title="SukaOjeg"
+            backgroundColor={'#800000'}
+            onPress={() => this.props.navigation.navigate('SukaOjeg')}
+          />
+          <MainFeature
+            title="SukaMobil"
+            Icon
+            active
+            name="airplane"
+            backgroundColor={'#F0E68C'}
+            onPress={() => this.props.navigation.navigate('SukaMobil')}
+          />
+          <MainFeature
+            title="SukaLapar"
+            backgroundColor={'#E6E6FA'}
+            onPress={() => alert('Dalam Pengembangan')}
+          />
+          <MainFeature
+            onPress={() => {
+              this.RBSheet.open();
+            }}
+            title="SukaWedding"
+            backgroundColor={'#FFB6C1'}
+          />
+        </View>
+        {/* Main 2 */}
         <View
           style={{
             justifyContent: 'space-between',
@@ -33,21 +68,21 @@ class MainSection extends Component {
             <NusaenaSection />
           </RBSheet>
           <MainFeature
-            title="SukaOjeg"
-            backgroundColor={'#F03832'}
-            onPress={() => this.props.navigation.navigate('SukaOjeg')}
+            title="SukaHajatan"
+            backgroundColor={'#87CEEB'}
+            onPress={() => alert('Dalam Pengembangan')}
           />
           <MainFeature
-            title="SukaMobil"
+            title="KarasaBagdja"
             Icon
             active
             name="airplane"
-            backgroundColor={'#F17000'}
-            onPress={() => this.props.navigation.navigate('SukaMobil')}
+            backgroundColor={'#98FB98'}
+            onPress={() => alert('Dalam Pengembangan')}
           />
           <MainFeature
-            title="SukaLapar"
-            backgroundColor={'#64DD17'}
+            title="SukaArisan"
+            backgroundColor={'#F4A460'}
             onPress={() => alert('Dalam Pengembangan')}
           />
           <MainFeature

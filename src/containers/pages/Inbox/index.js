@@ -20,7 +20,7 @@ export default class Inbox extends Component {
           <StatusBar barStyle="dark-content" backgroundColor="#fff" />
           <Body>
             <Title style={{color: '#000', paddingLeft: 12, fontWeight: 'bold'}}>
-              Nuju di siapkeun
+              Inbox
             </Title>
           </Body>
           <Left>
@@ -29,13 +29,12 @@ export default class Inbox extends Component {
             </Button>
           </Left>
         </Header>
-        <Right></Right>
-        <View style={{flex: 1}}>
+        <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
           <Text style={{fontSize: 24, fontWeight: 'bold', textAlign: 'center'}}>
-            Suka Lapar, Euy ??
+            Teu acan aya pesenan, Euy
           </Text>
           <Text style={{fontSize: 12, fontWeight: 'bold', textAlign: 'center'}}>
-            Kuuy Aah...Pesenkeun Katuangan
+            Kuuy Aah...Pesenkeun Katuangana!
           </Text>
         </View>
         <NavIcons />
