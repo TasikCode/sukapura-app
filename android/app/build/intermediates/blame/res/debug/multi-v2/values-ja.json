@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Android Studio\\Project\\Sukapura\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
+            "outputFile": "D:\\Android Studio\\Project\\Sukapura\\sukapura-app\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ja\\values-ja.xml",
             "map": [
                 {
                     "source": "C:\\Users\\SANGHIANG7\\.gradle\\caches\\transforms-2\\files-2.1\\fa63d0d1bf781a7bae3c50a8a6882dff\\res\\values-ja\\values.xml",
