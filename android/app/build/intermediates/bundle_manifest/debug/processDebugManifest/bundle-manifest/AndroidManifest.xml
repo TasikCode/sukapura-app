@@ -45,7 +45,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBqD1Od5wxWoXwMo1dI9I2wATaLCbtzNUg" /> <!-- Autocomplete -->
+            android:value="AIzaSyDYcr8K9_UaTt1pytmnmbeixErafOAHnsE" /> <!-- Autocomplete -->
         <activity
             android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
             android:exported="false"
