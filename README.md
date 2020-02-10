@@ -1,6 +1,11 @@
 # sukapura-app
+
+[![NPM version](https://img.shields.io/npm/v/@sinchang/react-github-badge.svg?style=flat)](https://npmjs.com/package/@sinchang/react-github-badge)
+[![Coverage Status](https://coveralls.io/repos/github/dhiemaz/sukapura-app/badge.svg?branch=master)](https://coveralls.io/github/dhiemaz/sukapura-app?branch=master)
+
 Sukapura Mobile App
 
+# Deskripsi 
 "Sukapura Ngadaun Ngora",
 "Sukapura"
 -Kalau Suka Jangan Pura²"😁
@@ -10,7 +15,7 @@ Ti Tasik,Ku Tasik,Keur Tasik #Tikukur
 
 
 Bismillah,
-Assalamuaikum.
+Assalamualaikum.
 Sampurasun.
 
    Ngahaturkeun nuhun Saageung-ageung na ka pangersa,anu parantos nyeumpetkeun ngaos kana ieu panghatur.
@@ -25,5 +30,26 @@ Karna apa??
 
 Sukapura apps sendiri terbentuk dari sebuah gagasan ide putra asli daerah ( Tasikmalaya ) yang mulai mempertanyakan banyaknya aplikasi² yang berhubungan dengan pola konsuntif yg mempermudah untuk transaksi konsumtif yang ramai di pakai oleh masyarakat,namun dinilai kurang menerapkan pola bisnis kearipan lokal untuk daerah yang didatanginya/target pasarnya. ( Masuk Ke Daerah Tasikmalaya )
 
+# Kebutuhan sistem
+* React Native
+* NPM v0.0.4+
 
-This Project Use : React Native ( FrontEnd )
+# Setup
+* Instalasi dependensi
+
+```
+$git clone https://github.com/sanghiang77/sukapura-app.git
+cd sukapura-app
+npm install
+```
+
+* Memulai aplikasi
+
+```
+$npm start
+```
+
+# Berkontribusi
+Terima kasih kepada semua kontributor, untuk melakukan kontribusi, silahkan lihat bagaimana [tata cara berkontribusi](./CONTRIBUTING.md). 
+
+
